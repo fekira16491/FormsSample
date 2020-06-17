@@ -1,0 +1,54 @@
+﻿<Properties StartupConfiguration="{0E9CFA75-220A-48E5-906B-49DAE045BDAB}|Default">
+  <MonoDevelop.Ide.ItemProperties.ShellFlyoutForms.Android PreferredExecutionTarget="Android.Pixel_3_API_29" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ShellFlyoutForms/ContentTemplate/FlyoutHeader.xaml">
+    <Files>
+      <File FileName="ShellFlyoutForms/ContentTemplate/FlyoutHeader.xaml" Line="12" Column="63" />
+      <File FileName="ShellFlyoutForms/ContentTemplate/FlyoutHeader.xaml.cs" />
+      <File FileName="ShellFlyoutForms.iOS/ShellFlyoutForms.iOS.csproj" />
+      <File FileName="ShellFlyoutForms/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="ShellFlyoutForms/AssemblyInfo.cs" />
+      <File FileName="ShellFlyoutForms/Shell/FlyoutItem.xaml" Line="52" Column="42" />
+      <File FileName="ShellFlyoutForms/Shell/FlyoutItem.xaml.cs" Line="10" Column="33" />
+      <File FileName="ShellFlyoutForms/Views/XamarinMonkeyPage.xaml" Line="1" Column="1" />
+      <File FileName="ShellFlyoutForms/Views/XamarinMonkeyPage.xaml.cs" />
+      <File FileName="ShellFlyoutForms/Views/XamarinShellPage.xaml" Line="1" Column="1" />
+      <File FileName="ShellFlyoutForms/Views/XamarinShellPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="ShellFlyoutForms.iOS/AppDelegate.cs" />
+      <File FileName="ShellFlyoutForms/App.xaml" />
+      <File FileName="ShellFlyoutForms/App.xaml.cs" Line="17" Column="10" />
+      <File FileName="ShellFlyoutForms.Android/Resources/drawable/back.jpeg" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ShellFlyoutForms" expanded="True">
+            <Node name="ShellFlyoutForms" expanded="True">
+              <Node name="ContentTemplate" expanded="True" />
+              <Node name="Shell" expanded="True" />
+              <Node name="Views" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+            <Node name="ShellFlyoutForms.Android" expanded="True" selected="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="ShellFlyoutForms.iOS" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ShellFlyoutForms.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.862C2A2A-DEA0-408F-92D5-E67AD9AB35CC" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

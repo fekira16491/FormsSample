@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms" FlyoutBackgroundImage="back.jpeg"
+       FlyoutBackgroundImageAspect="AspectFill" 
+       FlyoutBehavior="Flyout" xmlns:views="clr-namespace:ShellFlyoutForms.Views"
+       xmlns:controls="clr-namespace:ShellFlyoutForms.ContentTemplate"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="ShellFlyoutForms.Shell.FlyoutItem">
+
+      <!--<Shell.ItemTemplate>
+        <DataTemplate>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="hamburger"
+                       Margin="5"
+                       HeightRequest="45" />
+            </Grid>
+        </DataTemplate>
+    </Shell.ItemTemplate>-->
+   <Shell.FlyoutHeader>
+        <controls:FlyoutHeader />
+    </Shell.FlyoutHeader>
+
+   
+
+    <Shell.MenuItemTemplate>
+        <DataTemplate>
+            <Grid Margin="0,40,0,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="0.2*" />
+                    <ColumnDefinition Width="0.8*" />
+                </Grid.ColumnDefinitions>
+                <Image Source="{Binding Icon}"
+                       Margin="5"
+                       HeightRequest="20" />
+                <Label Grid.Column="1"
+                       Text="{Binding Text}"
+                       FontAttributes="Italic"
+                       VerticalTextAlignment="Center" />
+            </Grid>
+        </DataTemplate>
+    </Shell.MenuItemTemplate>
+
+    
+
+     <FlyoutItem Title="XamarinMonkey"
+                Icon="monkey" >
+        <Tab>
+            <ShellContent>
+                <views:XamarinMonkeyPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem Title="Shell"
+                Icon="info">
+        <Tab>
+            <ShellContent>
+                <views:XamarinShellPage />
+            </ShellContent>
+        </Tab>
+    </FlyoutItem>
+
+     <MenuItem Text="Random"
+              IconImageSource="random" />
+    <MenuItem Text="Help"
+              IconImageSource="text"/>  
+</Shell>
